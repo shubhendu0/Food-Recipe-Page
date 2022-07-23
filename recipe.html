@@ -1,0 +1,207 @@
+<html><head>
+    <meta name="viewport" content="with=device-width, initial-scale = 1.0">
+    <title>Recipe Website</title>
+    <link rel="icon" href="images/logo3.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="food-recipe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&amp;display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <!-- <img src="logo.png" class="logo"/> -->
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="tags.html">Tags</a></li>
+                    <li><a href="recipe.html">Recipe</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Recipes</h1>
+    </section>
+
+
+<!----------------RECIPES---------------->
+
+
+    <section class="recipes">
+        <h1>Breakfast</h1>
+        <div class="row">
+            <article class="card">
+                <img src="images/parantha.jpg" alt="" class="card__img">
+                <div class="card__data">
+                    <h2 class="card__title">Cheese-Paneer-Parantha</h2>
+                    <p class="card__description">Prep Time: 5-10 Minutes <br> Cook Time: 10-15 Minutes <br> Total Time: 15-20 Minutes</p>
+                    <a href="https://ranveerbrar.com/recipes/paneer-cheese-paratha-recipe/" target="_blank" class="card__btn">Click</a>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/idli.jpg" alt="" class="card__img">
+                <div class="card__data">
+                    <h2 class="card__title">Chettinad Idlis</h2>
+                    <p class="card__description">Prep Time: 20 Minutes <br> Cook Time: 20 Minutes <br> Total Time: 40 Minutes</p>
+                    <a href="https://ranveerbrar.com/recipes/chettinad-idlis/" target="_blank" class="card__btn">Click</a>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/lasanga.jpg" alt="" class="card__img">
+                <div class="card__data">
+                    <h2 class="card__title">Veg Lasagna</h2>
+                    <p class="card__description">Prep Time: 10 Minutes <br> Cook Time: 10-15 Minutes <br> Total Time: 20-25 Minutes</p>
+                    <a href="https://ranveerbrar.com/recipes/veg-lasagna-in-10-mins/" target="_blank" class="card__btn">Click</a>
+                </div>
+            </article>
+        </div>
+        <h1>Lunch</h1>
+        <div class="row">
+        <article class="card">
+            <img src="images/pav-bhaji.jpg" alt="" class="card__img">
+            <div class="card__data">
+                <h2 class="card__title">Bread Pav Bhaaji</h2>
+                <p class="card__description">Prep Time: 10-15 Minutes <br> Cook Time: 25-30 Minutes <br> Total Time: 35-40 Minutes</p>
+                <a href="https://ranveerbrar.com/recipes/bread-pav-bhaji/" target="_blank" class="card__btn">Click</a>
+            </div>
+        </article>
+        <article class="card">
+            <img src="images/macroni.jpg" alt="" class="card__img">
+            <div class="card__data">
+                <h2 class="card__title">Chessy Masala Macroni</h2>
+                <p class="card__description">Prep Time: 10 Minutes <br> Cook Time: 20-25 Minutes <br> Total Time: 25-30 Minutes</p>
+                <a href="https://ranveerbrar.com/recipes/cheesy-masala-macaroni/" target="_blank" class="card__btn">Click</a>
+            </div>
+        </article>
+        <article class="card">
+            <img src="images/moongdaal.jpg" alt="" class="card__img">
+            <div class="card__data">
+                <h2 class="card__title">Moong Dal Khachori</h2>
+                <p class="card__description">Prep Time: 15 Minutes <br> Cook Time: 35 Minutes <br> Total Time: 50 Minutes</p>
+                <a href="https://ranveerbrar.com/recipes/moong-dal-khichdi/" target="_blank" class="card__btn">Click</a>
+            </div>
+        </article>
+    </div>
+        <h1>Evening Snacks</h1>
+        <div class="row">
+        <article class="card">
+            <img src="images/noodles.jpg" alt="" class="card__img">
+            <div class="card__data">
+                <h2 class="card__title">Noodles</h2>
+                <p class="card__description">Prep Time: 20 Minutes <br> Cook Time: 15 Minutes <br> Total Time: 35 Minutes</p>
+                <a href="https://ranveerbrar.com/recipes/instant-dosa/" target="_blank" class="card__btn">Click</a>
+            </div>
+        </article>
+        <article class="card">
+            <img src="images/momos.jpg" alt="" class="card__img">
+            <div class="card__data">
+                <h2 class="card__title">Momos</h2>
+                <p class="card__description">Prep Time: 15 Minutes <br> Cook Time: 10 Minutes <br> Total Time: 25 Minutes</p>
+                <a href="https://ranveerbrar.com/recipes/cheesy-masala-macaroni/" target="_blank" class="card__btn">Click</a>
+            </div>
+        </article>
+        <article class="card">
+            <img src="images/pasta.jpg" alt="" class="card__img">
+            <div class="card__data">
+                <h2 class="card__title">Pasta</h2>
+                <p class="card__description">Prep Time: 10 Minutes <br> Cook Time: 25-30 Minutes <br> Total Time: 35-40 Minutes</p>
+                <a href="https://ranveerbrar.com/recipes/cheese-garlic-pasta-white-sauce-recipe/" target="_blank" class="card__btn">Click</a>
+            </div>
+        </article>
+    </div>
+        <h1>Dinner</h1>
+        <div class="row">
+        <article class="card">
+            <img src="images/shahi-paneer.jpg" alt="" class="card__img">
+            <div class="card__data">
+                <h2 class="card__title">Shahi Paneer</h2>
+                <p class="card__description">Prep Time: 15-20 Minutes <br> Cook Time: 10-15 Minutes <br> Total Time: 25-30 Minutes</p>
+                <a href="https://ranveerbrar.com/recipes/aam-shrikhand-aamras-recipe/" target="_blank" class="card__btn">Click</a>
+            </div>
+        </article>
+        <article class="card">
+            <img src="images/butterchicken.jpg" alt="" class="card__img">
+            <div class="card__data">
+                <h2 class="card__title">Butter Chicken</h2>
+                <p class="card__description">Prep Time: 120 Minutes <br> Cook Time: 25 Minutes <br> Total Time: 145 Minutes</p>
+                <a href="https://ranveerbrar.com/recipes/baked-vegetable-jalfrezi-lasagna/" target="_blank" class="card__btn">Click</a>
+            </div>
+        </article>
+        <article class="card">
+            <img src="images/kofta.jpg" alt="" class="card__img">
+            <div class="card__data">
+                <h2 class="card__title">Malai Kofta Masala</h2>
+                <p class="card__description">Prep Time: 10-15 Minutes <br> Cook Time: 25-30 Minutes <br> Total Time: 30-45 Minutes</p>
+                <a href="https://ranveerbrar.com/recipes/malai-kofta-masala/" target="_blank" class="card__btn">Click</a>
+            </div>
+        </article>
+    </div>
+        <h1>Dessert</h1>
+        <div class="row">
+        <article class="card">
+            <img src="images/kheer.jpg" alt="" class="card__img">
+            <div class="card__data">
+                <h2 class="card__title">Pista Kheer</h2>
+                <p class="card__description">Prep Time: 30 Minutes <br> Cook Time: 30 Minutes <br> Chilling Time: 8 Hours <br> Total Time: 9 Hours</p>
+                <a href="https://www.theflavorbender.com/butterscotch-mousse-recipe/" target="_blank" class="card__btn">Click</a>
+            </div>
+        </article>
+        <article class="card">
+            <img src="images/halwa.jpg" alt="" class="card__img">
+            <div class="card__data">
+                <h2 class="card__title">Suji Halwa</h2>
+                <p class="card__description">Prep Time: 10 Minutes <br> Cook Time: 30 Minutes <br> Total Time: 40 Minutes</p>
+                <a href="https://ranveerbrar.com/recipes/malpua/" target="_blank" class="card__btn">Click</a>
+            </div>
+        </article>
+        <article class="card">
+            <img src="images/Kimami-sewai.jpg" alt="" class="card__img">
+            <div class="card__data">
+                <h2 class="card__title">Kimami Sewai</h2>
+                <p class="card__description">Prep Time: 15-20 Minutes <br> Cook Time: 10 Minutes <br> Total Time: 25-30 Minutes</p>
+                <a href="https://ranveerbrar.com/recipes/til-chikki-2/" target="_blank" class="card__btn">Click</a>
+            </div>
+        </article>
+     
+    </section>
+
+
+<!----------------FOOTER---------------->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We provide you the best recipes in the world.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by SHUBHENDU BORA</p>
+    </section>
+
+
+<!----------------JAVASCRIPT FOR TOGGLE MENU---------------->
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+
+</body></html>

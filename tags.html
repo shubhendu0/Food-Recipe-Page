@@ -1,0 +1,135 @@
+<html><head>
+    <meta name="viewport" content="with=device-width, initial-scale = 1.0">
+    <title>Recipe Website</title>
+    <link rel="icon" href="images/logo3.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="food-recipe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&amp;display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!----------------SUB HEADER---------------->
+
+
+    <section class="sub-header">
+        <nav>
+            <!-- <img src="logo.png" class="logo"/> -->
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="tags.html">Tags</a></li>
+                    <li><a href="recipe.html">Recipe</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Tags</h1>
+    </section>
+
+
+<!----------------TAGS---------------->
+
+
+    <section class="tags">
+        <h1>Our Recipes</h1>
+        <div class="row">
+            <div class="recipe-col">
+                <a href="recipe.html"><h3>Breakfast</h3></a>
+                <ul>
+                    <li>Cheese Paneer Parantha</li>
+                    <li> Idli</li>
+                    <li>Veg Lasagna</li>                    
+                </ul>
+            </div>
+            <div class="recipe-col">
+                <a href="recipe.html"><h3>Lunch</h3></a>
+                <ul>
+                    <li>Bread Pav Bhaaji</li>                   
+                    <li>Cheese Masala Macroni</li>
+                    <li>Moong Dal Kachori</li>
+                </ul>
+            </div>
+            <div class="recipe-col">
+                <a href="recipe.html"><h3>Evening Snacks</h3></a>
+                <ul>
+                    <li>Noodles</li>
+                    <li>Momos</li>
+                    <li>Pasta</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="recipe-col">
+                <a href="recipe.html"><h3>Dinner</h3></a>
+                <ul>
+                    <li>Shahi Paneer </li>
+                    <li>Butter Chicken</li>
+                    <li>Malai Kofta Masala</li>                    
+                </ul>
+            </div>
+            <div class="recipe-col">
+                <a href="recipe.html"><h3>Dessert</h3></a>
+                <ul>
+                    <li>Pista Kheer</li>
+                    <li>Suji Halwa</li>
+                    <li>Kimami-sewai</li>
+                </ul>
+            </div>
+            <div class="recipe-col">
+                <a href="recipe.html"><h3>Chicken</h3></a>
+                <ul>
+                    <li>Chicken Curry</li>
+                    <li>Afghani Chicken</li>
+                    <li>Chicken Lollipop</li>
+                </ul>
+            </div>
+        </div>
+        <div class="recipe-col">
+            <h5>More</h5>
+        </div>
+
+
+    </section>
+
+
+<!----------------FOOTER---------------->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We provide you the best recipes in the world.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by SHUBHENDU BORA </p>
+    </section>
+
+
+<!----------------JAVASCRIPT FOR TOGGLE MENU---------------->
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+
+</body></html>
