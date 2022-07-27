@@ -11,8 +11,8 @@
 
 
 ## Technologies Used
-1.HTML
-2.CSS
+> 1. HTML
+> 2. CSS
 
 
 ## Project Status
